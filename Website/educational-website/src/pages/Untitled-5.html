@@ -1,0 +1,89 @@
+/index.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome to Our Educational Institution</title>
+    <link rel="stylesheet" href="../assets/css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <header>
+        <div class="header-content">
+            <img src="../assets/images/education-logo.png" alt="Education Logo" class="education-logo">
+            <h1>Our Educational Institution</h1>
+        </div>
+    </header>
+    <nav>
+        <!-- Include navbar component -->
+        <div id="navbar-placeholder"></div>
+    </nav>
+    <main>
+        <section class="hero">
+            <img src="../assets/images/placeholder.jpg" alt="Educational Institution" class="hero-image">
+            <h1 class="responsive-heading">Welcome to Our Educational Institution</h1>
+            <p>Your journey to knowledge and success starts here.</p>
+            <a href="courses.html" class="button">Explore Courses</a>
+        </section>
+        <section class="search-bar">
+            <input type="text" placeholder="Search..." class="responsive-search">
+        </section>
+        <section class="categories">
+            <h2>Categories</h2>
+            <div class="category-grid">
+                <div class="category-item">
+                    <a href="creative.html">
+                        <i class="fas fa-paint-brush"></i> Creative
+                    </a>
+                </div>
+                <div class="category-item">
+                    <a href="ict.html">
+                        <i class="fas fa-laptop"></i> ICT
+                    </a>
+                </div>
+                <div class="category-item">
+                    <a href="data.html">
+                        <i class="fas fa-chart-bar"></i> Data
+                    </a>
+                </div>
+                <div class="category-item">
+                    <a href="business.html">
+                        <i class="fas fa-briefcase"></i> Business
+                    </a>
+                </div>
+                <div class="category-item">
+                    <a href="marketing.html">
+                        <i class="fas fa-bullhorn"></i> Marketing
+                    </a>
+                </div>
+                <div class="category-item">
+                    <a href="learning.html">
+                        <i class="fas fa-book"></i> Learning
+                    </a>
+                </div>
+            </div>
+        </section>
+        <section class="overview">
+            <h2>About Us</h2>
+            <p>We are dedicated to providing quality education and fostering a community of learners.</p>
+            <a href="about.html" class="button">Learn More</a>
+        </section>
+        <section class="testimonials">
+            <h2>What Our Students Say</h2>
+            <p>"This institution has changed my life!" - Student A</p>
+            <p>"The courses are engaging and informative." - Student B</p>
+        </section>
+    </main>
+    <footer>
+        <!-- Include footer component -->
+        <div id="footer-placeholder"></div>
+    </footer>
+    <script src="../assets/js/scripts.js"></script>
+    <script>
+        // Load navbar and footer components
+        document.getElementById('navbar-placeholder').innerHTML = '<object type="text/html" data="../components/navbar.html" ></object>';
+        document.getElementById('footer-placeholder').innerHTML = '<object type="text/html" data="../components/footer.html" ></object>';
+    </script>
+</body>
+</html>
